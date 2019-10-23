@@ -151,14 +151,75 @@ nav a {
   display: flex;
   padding: 2em;
   color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  text-decoration: none;
 }
 .ABX {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+}
+.ABH {
+  display: flex;
+  justify-content: left;
+  margin: 40px;
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .pic {
   display: flex;
-  width: 50%;
-  height: 100%;
+  width: 200px;
+  height: 300px;
+}
+.abp {
+  padding-right: 10%;
+  margin: 0.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+@media screen and (max-width: 701px) {
+  .ABH {
+    display: flex;
+    justify-content: center;
+    margin: 0.1em;
+    flex-direction: column;
+    text-orientation: vertical;
+    writing-mode: vertical-rl;
+  }
+}
+.Sx {
+  display: flex;
+  padding-top: 10px;
+}
+.skillH {
+  display: flex;
+  justify-content: left;
+  padding-left: 240px;
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.spb {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding-left: 58px;
+}
+@media screen and (max-width: 701px) {
+  .skillH {
+    display: flex;
+    justify-content: left;
+    margin: 0.1em;
+    flex-direction: column;
+    text-orientation: vertical;
+    writing-mode: vertical-rl;
+    padding-left: 200px;
+  }
+  .spb {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding-left: 6px;
+  }
 }
