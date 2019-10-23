@@ -152,8 +152,13 @@ nav a {
   padding: 2em;
   color: aliceblue;
 }
+.ABX {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
 .pic {
   display: flex;
-  width: 15%;
-  height: 25%;
+  width: 50%;
+  height: 100%;
 }
